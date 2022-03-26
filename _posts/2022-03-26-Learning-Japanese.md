@@ -11,27 +11,31 @@ This is a list of resources I use(d) for learning Japanese, plus some blabbering
 
 [Tofugu](https://www.tofugu.com/japanese/learn-hiragana/) and [Real Kana](https://realkana.com/)  (I highly recommend learning both Hiragana and Katakana from the beginning. I'd even say manually practising Katakana is more important, _because_ it is less common).
 
-### __(Side-Note) Romaji:__
+### _Romaji:_
 
 I wouldn't recommend learning Japanese using "romaji", meaning Japanese written using Latin letters (e.g. "kawaii desu"), not even to start with. It will only make everything more difficult and confusing. Just because the first few steps feel easier, doesn't mean it is a good idea. And while learning a new alphabet might seem a bit daunting, it really isn't difficult and you will quickly get used to it.
 
 
 ## Grammar
 
-The commonly taken approach to Japanese grammar in English textbooks (and consequently most online resources as well) is a bit of a mess, trying to explain Japanese through an English lens, instead of accepting that Japanese grammar simply works fundamentally different from English. There unfortunately still doesn't seem to be a textbook, at least as far as I am aware, which fully overhauls this antiquated approach.\
+The commonly taken approach to Japanese grammar in English textbooks (and consequently most online resources as well) is a bit of a mess, trying to explain Japanese through an English lens, instead of accepting that Japanese grammar simply works fundamentally different from English. There unfortunately still doesn't seem to be a textbook, at least as far as I am aware, which fully overhauls this antiquated approach.
+
 There is however [this Youtube video series](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj).\
 「なに⁉」 you might be thinking. Clickbait titles, a poorly animated digital head, a grating voice?!\
-Yeah, the presentation is kinda strange, certainly not very confidence-inducing, but the person behind these videos really knows what they are talking about, and, if you can get over the presentation, it really is the best, or definitely the most logical and structured, explanation of Japanese grammar that I am aware of.\
+Yeah, the presentation is kinda strange, certainly not very confidence-inducing, but the person behind these videos really knows what they are talking about, and, if you can get over the presentation, it really is the best, or definitely the most logical and structured, explanation of Japanese grammar that I am aware of.
+
 If you can't get used to the style of Cure Dolly, which I can't blame anyone for, my other recommendation would be to read [Tae Kim's guide](http://www.guidetojapanese.org/learn/grammar) ([here](http://www.guidetojapanese.org/grammar_guide.pdf) is a pdf version for offline reading, though it unfortunately hasn't been updated in a long while).\
-Tae Kim tries his best to improve on the ways Japanese grammar is usually taught in English, and his guide really is very good, but there are still places where he fails to properly explain the fundamental structure of Japanese grammar. I would recommend, maybe after you have gone through the "basics" section of his guide, to at least watch [these videos](https://www.youtube.com/playlist?list=PLg9uYxuZf8x9hoAsh5-fjGDBw-17O5oTy) by the above-mentioned channel, which point out a few places where Tae Kim's explanations fall short.\
+Tae Kim tries his best to improve on the ways Japanese grammar is usually taught in English, and his guide really is very good, but there are still places where he fails to properly explain the fundamental structure of Japanese grammar. I would recommend, maybe after you have gone through the "basics" section of his guide, to at least watch [these videos](https://www.youtube.com/playlist?list=PLg9uYxuZf8x9hoAsh5-fjGDBw-17O5oTy) by the above-mentioned channel, which point out a few places where Tae Kim's explanations fall short.
+
 Though honestly, the only way to really 'get' Japanese grammar is by reading a lot of Japanese, and developing an intuition for yourself how things work. No matter what grammar guide you go with, it ultimately will only serve to get you started with deciphering the basic structure of sentences. Though it of course is still helpful to build your intuition on a stable basis.
 
 
 ## Kanji
 
 I have tried [Wanikani](https://www.wanikani.com/) (way too slow, zero customisation, don't like the mnemonics, monthly fee) and [RTK](https://www.google.com/search?q=remembering+the+kanji) (odd and archaic keywords, intended for learning handwriting).\
-In the end I went through RTK, but using a mix of RTK keywords, Wanikani keywords and my own keywords...\
-With hindsight, I would not recommend trying to learn "all" kanji (i.e. the few thousand most commonly used ones) in one go. While it is very helpful to attach some meaning to common radicals, in the end, it's a lot easier to learn kanji as one comes across them, with some helpful context to it's meaning, rather than trying to blindly shove them into one's head, with at most some English word to associate them with.\
+In the end I went through RTK, but using a mix of RTK keywords, Wanikani keywords and my own keywords...
+
+With hindsight, I would not recommend trying to learn "all" kanji (i.e. the few thousand most commonly used ones) in one go. While it is very helpful to attach some meaning to common radicals, in the end, it's a lot easier to learn kanji as one comes across them, with some helpful context to their meaning, rather than trying to blindly shove them into one's head, with at most some English word to associate them with.\
 And, in the end, the only thing that really matters with kanji, is to learn their readings, especially their on-readings. And the best way to do that is to just see words using a kanji a lot of times, every time querying your mind for the reading, and if you can't remember, looking it up, until it sticks.
 
 
@@ -46,7 +50,8 @@ Of course, once you know the language well, it still might be a good idea to lea
 ## Vocabulary
 
 I did try a few pre-made ["Core 2k"](https://ankiweb.net/shared/decks/japanese) Anki decks, but found them in various ways frustrating, so I've decided to make my own over time as I come across words. And I would recommend doing the same, since it is a lot easier to remember new words when they come with some context.\
-Also, I wouldn't recommend spending too much time practising vocabulary "dry" (i.e. in Anki), but rather to instead just read as much as possible. With a PC and some experience in entering kanji by radical, it's no issue at all to just look up a word a few times, until it sticks in your head.\
+Also, I wouldn't recommend spending too much time practising vocabulary "dry" (i.e. in Anki), but rather to instead just read as much as possible. With a PC and some experience in entering kanji by radical, it's no issue at all to just look up a word a few times, until it sticks in your head.
+
 One middle approach that I've converged onto for myself, is to save all words which I had to look up during a reading session to Anki and afterwards go through them a few times for review, before deleting them again.\
 And ultimately, the only thing you really have to beat into your head are the readings of kanji. The meaning of words is much better understood by encountering it in various contexts, rather than directly associating it with some specific English translation, which, especially with a language as distant from English as Japanese, will in a lot of cases do more harm than good. I even have the "meaning" field [hidden by default](https://docs.ankiweb.net/templates/fields.html#hint-fields) in Anki, only revealing it when I don't remember at all what a word means.
 
@@ -62,7 +67,7 @@ There is a nice website called ["Bilingual Manga"](https://bilingualmanga.com/ma
 If you want to buy manga, books, etc. from Japan, there are a few websites available. Probably the most convenient option is just ordering from [Amazon Japan](https://www.amazon.co.jp/), though with some products, it might say "This item cannot be shipped to your selected delivery location." for some reason, so good luck. Another option is [CD Japan](https://www.cdjapan.co.jp/), which, contrary to what the name suggests, also sells Japanese manga (and all sorts of other stuff).\
 Of course there also is the option to get E-Books, though beware that most websites will not give you the manga as something like an EPUB file, but rather require you to use their apps. If you're fine with reading on the phone or PC, that's no problem of course.
 
-### __(Side-note) Furigana:__
+### _Furigana:_
 
 The fact that a lot of manga & novels (in particular those aimed at a younger audience) have full furigana (i.e. the reading of kanji are written above/besides them) is in parts a blessing and a curse for learning Japanese. Furigana obviously make both reading itself and looking up vocabulary easier, so in turn making for a much more pleasant reading experience, letting you focus more on things like grammar or, well, the story itself.
 
@@ -87,7 +92,7 @@ in the file\
 Though generally, I would recommend to try to pause as little as necessary, and not to get into the habit of parsing every single line spoken with Yomichan. If you don't quite understand a sentence or word, keep going, it might become clear from context. If you get lost and no longer can follow the dialogue, then skip back, check what the words you didn't know meant, and watch the scene again with the additional context. Learning from context is a lot more powerful than learning through translation.\
 If you're feeling confident, you can also try to deliberately ignore the subtitles, and only glance down if you can't quite follow a line spoken, or again, skip back, and watch a scene again with subtitles, so you get the context for whatever comes afterwards.
 
-### __(Side-note) English subtitles:__
+### _English subtitles:_
 
 I would think this would go without saying, but I'll add it for completeness: You can't learn Japanese with _English_ subtitles.\
 Not only will your brain just tune out the spoken Japanese and only read the English, no matter how hard you try, but due to the fact that the Japanese sentence structure is so completely different from the English, what is said and what you read in the subtitles won't even match up semantically. So even if you would manage to take in the subtitles and the dialogue simultaneously, you would have to wait for a full sentence to be said, then match up the corresponding parts in your mind (for which you would have to mostly have understood the Japanese sentence already), and finally go through the Japanese sentence again with the newly understood words. In short, it doesn't work.
@@ -119,6 +124,7 @@ Not only will your brain just tune out the spoken Japanese and only read the Eng
 
 
 ## __A general note__
+
 Make sure when choosing learning resources that you keep in mind for what purpose you are learning Japanese.
 
 For example [Genki](https://www.google.com/search?q=genki%20an%20integrated%20course%20in%20elementary%20japanese), probably the most popular text book for Japanese, is really made to get you started with conversational Japanese, giving you a lot of set phrases, with little grammatical explanation, which might be handy if you want to visit Japan and get around without asking "Do you speak English?" all the time, but if you want to read Manga or watch Anime in Japanese, or, simply put, actually want to understand the language, it will be of little use.
