@@ -1,4 +1,4 @@
-# Some Stuff about Learning Japanese
+# Some Stuff about learning Japanese
 
 This is a list of resources I use(d) for learning Japanese, plus some blabbering.
 

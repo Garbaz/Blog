@@ -1,1 +1,1 @@
-# Past Blog Entries
+# Blog
