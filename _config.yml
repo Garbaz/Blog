@@ -1,0 +1,14 @@
+title: Garbaz' Blog
+author:
+  name: Garbaz
+  #email: garbaz@t-online.de
+#description: A made up language
+# header_pages:
+#   - ideas.md
+remote_theme: jekyll/minima
+minima:
+  skin: dark
+  date_format: "%Y-%m-%d"
+  social_links:
+    github: "Garbaz"
+    discord: "Garbaz#2585"
