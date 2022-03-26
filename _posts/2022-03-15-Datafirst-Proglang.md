@@ -22,7 +22,9 @@ In this project, I would like to consider a programming language that is "data-f
 
 ## Why?
 
-The core idea is to think in terms of data flowing through the program, going through various transformations, before being spat out the other end. All programs effectively work in that way, which, at least in imperative programming languages, is generally also represented in the macro structure of the language, with a series of statements that are executed from top to bottom.\
+The core idea is to think in terms of data flowing through the program, going through various transformations, before being spat out the other end.
+
+All programs effectively work in that way, which, at least in imperative programming languages, is generally also represented in the macro structure of the language, with a series of statements that are executed from top to bottom.\
 However, when it comes down to the syntax of individual lines, the order tends to be reversed, with the input data standing to the right, and the result being to the left:
 
 ```c
@@ -53,7 +55,7 @@ However, if we were to write this out as one line in a data-last programming lan
 Which, at least to me, seems to go against the intuitive way we think about solving the problem.
 
 
-## An intuitive order of terms
+## An Intuitive Order of Terms
 
 Taking the intuition above, perhaps a better order of terms would be something like this:
 
@@ -94,7 +96,7 @@ Perhaps, we could even incorporate this differetiation between data and paramete
 with `map` being defined to have one input data stream and one parameter, and `sum` being defined to have one input data stream and no parameters.
 
 
-## Multiple input streams
+## Multiple Input Streams
 
 However, in some cases we might simply have multiple independent streams of data, with each one coming itself out of a long sequence of transformations, which we want to put into a function. In a data-last style of programming, this is handled rather neatly:
 
@@ -115,10 +117,11 @@ Putting these thoughts into the syntax of our data-first programming language, w
 
 `list1 map(f) | list2 reverse | concat`
 
-The `|` here signifying, that we want to put the current data stream aside and start a new one. When calling `concat` at the beginning of the third new datastream, the ones put aside are collected, and put through the final transformation. In a way, the `|` symbol could be considered optional, since for example in writing `list2` in our statement above, a term which does not take any input, it already is clear that we have to leave the current data stream dangling and start a new one, or raise a syntax error.
+The `|` here signifying, that we want to put the current data stream aside and start a new one. When calling `concat` at the beginning of the third new datastream, the ones put aside are collected, and put through the final transformation.\
+In a way, the `|` symbol could be considered optional, since for example in writing `list2` in our statement above, a term which does not take any input, it already is clear that we have to leave the current data stream dangling and start a new one, or raise a syntax error.
 
 
-## Mathematical expressions
+## Mathematical Expressions
 
 For better or worse, the use of infix operators in mathematical expressions is quite deeply ingrained into the way we think about calculations, even if that sometimes requires some juggling of symbols to achive the desired result. To take an example:
 
@@ -137,7 +140,7 @@ This effectively gives us our expression in Reverse Polish notation.
 While perfectly readable with some rethinking, I still would consider it perhaps sensible to take a similar route to the one Haskell took, and allow symbolic infix operators, while also keeping open the option to turn an infix operator into a function when needed.
 
 
-## Function definitions
+## Function Definitions
 
 Taking the above idea of separating a function's arguments into data and parameters, perhaps a syntax for defining a function as follows would make sense:
 
@@ -183,7 +186,7 @@ However, I would not consider these two styles mutually exclusive. In fact, if w
 
 Then it would make sense for this to be considered simply a statement of data to be transformed or assigned as usual, automatically giving us the option for the second style of syntax for free.
 
-## Data to parameters/transformation
+## Data to Parameters/Transformations
 
 With the ability to treat a function like data, it follows that we perhaps would like to put it through a few transformations, before finally still taking it as a parameter. A way to allow for this would be to simply have to option to mark a parameter as such:
 
