@@ -11,7 +11,7 @@ This is a list of resources I use(d) for learning Japanese, plus some blabbering
 
 [Tofugu](https://www.tofugu.com/japanese/learn-hiragana/) and [Real Kana](https://realkana.com/)  (I highly recommend learning both Hiragana and Katakana from the beginning. I'd even say manually practising Katakana is more important, _because_ it is less common).
 
-### _Romaji:_
+### _(Side-Note) Romaji:_
 
 I wouldn't recommend learning Japanese using "romaji", meaning Japanese written using Latin letters (e.g. "kawaii desu"), not even to start with. It will only make everything more difficult and confusing. Just because the first few steps feel easier, doesn't mean it is a good idea. And while learning a new alphabet might seem a bit daunting, it really isn't difficult and you will quickly get used to it.
 
@@ -67,7 +67,7 @@ There is a nice website called ["Bilingual Manga"](https://bilingualmanga.com/ma
 If you want to buy manga, books, etc. from Japan, there are a few websites available. Probably the most convenient option is just ordering from [Amazon Japan](https://www.amazon.co.jp/), though with some products, it might say "This item cannot be shipped to your selected delivery location." for some reason, so good luck. Another option is [CD Japan](https://www.cdjapan.co.jp/), which, contrary to what the name suggests, also sells Japanese manga (and all sorts of other stuff).\
 Of course there also is the option to get E-Books, though beware that most websites will not give you the manga as something like an EPUB file, but rather require you to use their apps. If you're fine with reading on the phone or PC, that's no problem of course.
 
-### _Furigana:_
+### _(Side-Note) Furigana:_
 
 The fact that a lot of manga & novels (in particular those aimed at a younger audience) have full furigana (i.e. the reading of kanji are written above/besides them) is in parts a blessing and a curse for learning Japanese. Furigana obviously make both reading itself and looking up vocabulary easier, so in turn making for a much more pleasant reading experience, letting you focus more on things like grammar or, well, the story itself.
 
@@ -92,7 +92,7 @@ in the file\
 Though generally, I would recommend to try to pause as little as necessary, and not to get into the habit of parsing every single line spoken with Yomichan. If you don't quite understand a sentence or word, keep going, it might become clear from context. If you get lost and no longer can follow the dialogue, then skip back, check what the words you didn't know meant, and watch the scene again with the additional context. Learning from context is a lot more powerful than learning through translation.\
 If you're feeling confident, you can also try to deliberately ignore the subtitles, and only glance down if you can't quite follow a line spoken, or again, skip back, and watch a scene again with subtitles, so you get the context for whatever comes afterwards.
 
-### _English subtitles:_
+### _(Side-Note) English subtitles:_
 
 I would think this would go without saying, but I'll add it for completeness: You can't learn Japanese with _English_ subtitles.\
 Not only will your brain just tune out the spoken Japanese and only read the English, no matter how hard you try, but due to the fact that the Japanese sentence structure is so completely different from the English, what is said and what you read in the subtitles won't even match up semantically. So even if you would manage to take in the subtitles and the dialogue simultaneously, you would have to wait for a full sentence to be said, then match up the corresponding parts in your mind (for which you would have to mostly have understood the Japanese sentence already), and finally go through the Japanese sentence again with the newly understood words. In short, it doesn't work.
