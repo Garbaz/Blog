@@ -1,7 +1,7 @@
 title: Garbaz' Blog
 author:
   name: Garbaz
-  #email: garbaz@t-online.de
+  email: garbaz@t-online.de
 #description: A made up language
 # header_pages:
 #   - ideas.md
@@ -12,3 +12,19 @@ minima:
   social_links:
     github: "Garbaz"
     discord: "Garbaz#2585"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other
