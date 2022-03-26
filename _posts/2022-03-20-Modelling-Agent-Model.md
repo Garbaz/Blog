@@ -14,11 +14,11 @@ The Agent's success or failure in achieving their goals is determined by the Dec
 
 ### Soft-Wired Agent
 
-While still having a fixed Action for a given Image of the Environment, an Agent could have a mechanism for evaluating how it's Actions serve towards achieving it's Goals, which instruct a direct adaption of it's Decider.
+While still having a fixed Action for a given Image of the Environment, an Agent could have a mechanism for evaluating how it's Actions have served towards achieving it's Goals, which instruct a direct adaption of it's Decider.
 
 ### Modelling Agent
 
-With an Agent's inability to directly read the Environment, instead of taking the Image their Senses take of it directly in determining their Actions, an Agent could attempt to construct a _Model_ of the Environment, a representation of it inside their Decider, which is in turn constructed and adapted through their Image of the Environment.
+With an Agent's inability to directly read the Environment, instead of using the Image their Senses take of it directly in determining their Actions, an Agent could attempt to construct a _Model_ of the Environment, a representation of it inside their Decider, which is in turn constructed and adapted through their Image of the Environment.
 
 
 ## Model
@@ -36,14 +36,14 @@ While the human mind is not cleanly approachable as a Modelling Agent Decider, h
 ### Tools
 
 Causing through an Action an interaction between parts of the Environment to achieve an Effect that the Agent could not achieve directly through an Action, while commonly considered a signifier of "intelligence", does not necessarily require for an Agent to base their decisions upon a Model of the Environment.\
-However, a Modelling Agent, being capable of considering an Action's Effect upon the Environment, can spontaneously and flexibly use tools much beyond one would expect of a Soft-Wired Agent of equivalent capacity.
+However, a Modelling Agent, being capable of considering an Action's Effect upon the Environment by considering the Action in the Model of the Environment without having to do the Action in the real Environment, can use tools much more spontaneously and flexibly than a Soft-Wired Agent of equivalent capacity, who would have to learn the use of tools through trial and error in the real Environment.
 
 ### Social Behaviour
 
-If the Environment an Agent finds themselves in is generally consistent in variation and complexity over space and time, through an evolutionary process, a Hard-Wired or Soft-Wired Agent can be converged towards a capable Decider. However, if a part of the Environment is highly unpredictable, both types of Agents will perform poorly.\
-With other complex Agents being part of the environment, a Modelling Agent is capable of constructing a Model of their Decider, allowing them to to reason about other Agent's behaviour, given the Image they would have of the Environment, which in turn is informed by the Actions of the Agent themselves.
+If the Environment an Agent finds themselves in is generally consistent in variation and complexity over space and time, through an evolutionary process, a Soft-Wired Agent, or even a Hard-Wired Agent, can be converged towards possessing a Decider well adapted to interacting with the Environment in a manner that furthers their Goals. However, if a part of the Environment is highly unpredictable, neither type of Agent will perform well.\
+In particular in the case of other complex Agents being part of the environment, a Modelling Agent is capable of constructing a Model of their Deciders, allowing them to to reason about other Agent's behaviour, given the Image they would have of the Environment, which in turn is informed by the Actions of the Agent themselves.
 
 
 ## Artificial Intelligence
 
-In the presently commonly applied machine learning architectures falling largely under the category of a Soft-Wired Agent, it would be of interest to consider whether a Modelling Agent could be similarly implemented and used to further the capabilities of artificial intelligent systems.
+With the presently commonly applied machine learning architectures falling largely under the category of a Soft-Wired Agent, it would be of interest to consider whether a Modelling Agent could be similarly implemented and used to further the capabilities of artificial intelligent systems.
