@@ -1,5 +1,1 @@
----
-title: Index
----
-
-Salutations.
+# Past Blog Entries
