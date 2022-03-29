@@ -41,7 +41,14 @@ However, a Modelling Agent, being capable of considering an Action's Effect upon
 ### Social Behaviour
 
 If the Environment an Agent finds themselves in is generally consistent in variation and complexity over space and time, through an evolutionary process, a Soft-Wired Agent, or even a Hard-Wired Agent, can be converged towards possessing a Decider well adapted to interacting with the Environment in a manner that furthers their Goals. However, if a part of the Environment is highly unpredictable, neither type of Agent will perform well.\
-In particular in the case of other complex Agents being part of the environment, a Modelling Agent is capable of constructing a Model of their Deciders, allowing them to to reason about other Agent's behaviour, given the Image they would have of the Environment, which in turn is informed by the Actions of the Agent themselves.
+In particular in the case of other complex Agents being part of the Environment, a Modelling Agent, capable of constructing a Model of the Deciders of other Agents, can reason about other Agent's behaviour, given the Image these other Agents would have of the Environment, which in turn is informed by the Actions of the Agent themselves.
+
+### Self
+
+While the Actor themselves as part of their Environment has to be considered in some form in every Decider, a Modelling Agent in particular, can develop a model of their Self, their own phyiscal presence in their Environment, and any internal influences upon their decisions.
+
+### Communication
+
 
 
 ## Artificial Intelligence
