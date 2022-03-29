@@ -81,7 +81,7 @@ While with reading it is easy to go at ones own pace and to look things up (at l
 Japanese subtitles!\
 You can find Japanese subtitles for a lot of anime on [Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F). The files you can download there only contain the subtitles, so you'll need to get the video from somewhere else. Luckily, you don't need to buy DVDs from Japan for this; As long as there is the original Japanese audio on it (which with anime luckily usually is the case), you can just buy the anime locally, pick Japanese audio, and load the Japanese subtitles instead of the built-in local ones.
 
-While watching, you will of course come across words/kanji you don't know, so to easily look them up, I would recommend using a video player that has some way to copy the currently shown subtitle line to the clipboard. Unfortunately this is not a common feature.
+While watching, you will of course come across words/kanji you don't know, so to easily look them up, I would recommend using a video player that has some way to copy the currently shown subtitle line to the clipboard. Unfortunately this is not a common feature.\
 On _Windows_ there seems to be [Pot Player](https://potplayer.daum.net/), which according to [this StackExchange thread](https://softwarerecs.stackexchange.com/questions/15008/video-player-which-makes-displayed-subtitles-selectable-as-text) allows you to copy subtitles while watching. You can also probably adapt the below method to Windows, though I haven't tried either.\
 On _Linux_ you can use [mpv](https://mpv.io/) with\
 `c run "/bin/sh" "-c" "printf '${sub-text}' | xsel -ib"`\
