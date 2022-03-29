@@ -1,3 +1,3 @@
 # Index
 
-(I update most blog posts regularly, the dates shown are just the initial publishing)
+(I tend to update blog posts a lot, the dates shown are just the initial publishing)
