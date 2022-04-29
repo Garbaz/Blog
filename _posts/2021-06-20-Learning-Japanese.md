@@ -55,8 +55,11 @@ Also, I wouldn't recommend spending too much time practising vocabulary "dry" (i
 One middle approach that I've converged onto for myself, is to save all words which I had to look up during a reading session to Anki and afterwards go through them a few times for review, before deleting them again.\
 And ultimately, the only thing you really have to beat into your head are the readings of kanji. The meaning of words is much better understood by encountering it in various contexts, rather than directly associating it with some specific English translation, which, especially with a language as distant from English as Japanese, will in a lot of cases do more harm than good. I even have the "meaning" field [hidden by default](https://docs.ankiweb.net/templates/fields.html#hint-fields) in Anki, only revealing it when I don't remember at all what a word means.
 
+Also, something you might notice when starting to read/watch something new, especially if it is in a genre or by a creator you don't have any experience with, is that you will suddenly come across a lot of unknown words or even have difficulty following the story. Almost as if you have been set back in your learning progress. However, this is simply due to every individual having a different writing style and every genre having it's unique terminology. You will notice this especially if you go for something from a different time period.\
+Don't take that as a blow to your confidence in the understanding of the language, it's just another opportunity to become familiar with new grammar and vocabulary.
 
-## Reading practice
+
+## Manga
 
 For the very beginning, I'd recommend starting with [Japanese fairytales](https://www.wasabi-jpn.com/japanese-lessons/fairy-tales-and-short-stories-with-easy-japanese/) (more [here](http://life.ou.edu/stories/) and [here](http://hukumusume.com/douwa/betu/index.html)) and other stories intended for children, since they usually feature simple vocabulary and grammatically clear sentences. See also : [Tofugu](https://www.tofugu.com/japanese/japanese-reading-practice-for-beginners/)  and [Crunchy Nihongo](http://crunchynihongo.com/beginner-japanese-reading-practice-book/) for more recommendations.
 
@@ -74,10 +77,17 @@ The fact that a lot of manga & novels (in particular those aimed at a younger au
 The problem is that, the moment you take away the furigana, even for a word seen many times over, you will notice that you most likely don't remember it's reading, you might not even recognize the kanji. In reading, your brain automatically focuses much more on the easy to read hiragana than the kanji besides them. In fact, even if you try, consciously ignoring the furigana and only reading the kanji themselves is quite difficult.\
 The result unfortunately being, that, while a great help in getting comfortable with reading Japanese, furigana are of no help, or even counterproductive, towards learning kanji. And since you will inevitably come across situations where the readings of kanji will not be readily provided, I would highly recommend sooner rather than later to begin reading manga, novels or just stuff on the web without furigana (and without going over every word with Yomichan). It is painfully slow at first, but it's the only way to learn to read kanji, and therefore properly read Japanese. As noted above, I would also recommend reviewing vocabulary (and therefore the corresponding kanji readings) of words you had to look up after a reading session.
 
+## Novels
+
+If, like me, you start out with reading mostly manga, once you try reading a novel, you will be hit with quite the learning curve.\
+In manga you are mostly only exposed to the language of dialogue, and you will notice that the language used to describe a scene in a story tends to be a completely different register. Just like with every other language, the words and grammatical constructs used in Japanese prose differs quite a lot from the normal spoken language. It might even feel at first like learning from zero all over again.
+
+Don't let that discourage you. You will have to accept that just like in the very beginning, each sentence, each page will take it's time, and you will have to look up a lot of new vocabulary at first, but it won't be long until you get accustomed to this new form of the language. You just have to get over the initial hump of a lot new things at once.
+
 
 ## Anime with Japanese subtitles
 
-While with reading it is easy to go at ones own pace and to look things up (at least once one gets used to inputting kanji by radicals), with spoken word, it can be very difficult, especially in the beginning, to follow even a simple sentence, and sometimes even to just figure out what Kana are being said to look up a word. But on the other hand, we want to somehow practise listening comprehension (and watch anime, of course), so what to do?\
+While with reading it is easy to go at ones own pace and to look things up (at least once one gets used to inputting kanji by radicals), with spoken word, it can be very difficult, especially in the beginning, to follow even a simple sentence, and sometimes even to just figure out what Kana are being said to look up a word. But on the other hand, we want to somehow practice listening comprehension (and watch anime, of course), so what to do?\
 Japanese subtitles!\
 You can find Japanese subtitles for a lot of anime on [Kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F). The files you can download there only contain the subtitles, so you'll need to get the video from somewhere else. Luckily, you don't need to buy DVDs from Japan for this; As long as there is the original Japanese audio on it (which with anime luckily usually is the case), you can just buy the anime locally, pick Japanese audio, and load the Japanese subtitles instead of the built-in local ones.
 
