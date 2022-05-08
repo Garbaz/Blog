@@ -89,7 +89,7 @@ However, in the data-first style we don't have to make the choice between either
 
 Of course, as is already evident above with `map`, a question that immediately comes to mind, is how to handle functions that take multiple arguments. In the case of a function like `map`, it does make sense to have the operation that we want to apply (here: `inverse`) be in some way attached to it, since in the "flowing data" intuition we don't really think about the operation we apply until we want to map it over our current data. In a way, `inverse` is less viewed as data, and more as a parameter to the transformation itself.
 
-Perhaps, we could even incorporate this differetiation between data and parameters into the language's syntax:
+Perhaps, we could even incorporate this differentiation between data and parameters into the language's syntax:
 
 `[1,2,3] map(inverse) sum ~> result`
 
@@ -104,7 +104,7 @@ However, in some cases we might simply have multiple independent streams of data
 
 Which, besides order, does not discriminate between the two inputs.
 
-However this syntax does not necessarily agree with ones intutition about approaching the problem. In the given example, given the lists `list1` and `list2`, we would first want to think about applying `map(f,_)` to the former and `reverse` to the latter, giving us two intermediate results, and then, finally, to apply `concat`. Again, the data-last style requires us to consider these operations backwards, unless we split them up with explicit intermediate results:
+However this syntax does not necessarily agree with ones intuition about approaching the problem. In the given example, given the lists `list1` and `list2`, we would first want to think about applying `map(f,_)` to the former and `reverse` to the latter, giving us two intermediate results, and then, finally, to apply `concat`. Again, the data-last style requires us to consider these operations backwards, unless we split them up with explicit intermediate results:
 
 ```c
 t1 = map(f, list1);
@@ -117,13 +117,13 @@ Putting these thoughts into the syntax of our data-first programming language, w
 
 `list1 map(f) | list2 reverse | concat`
 
-The `|` here signifying, that we want to put the current data stream aside and start a new one. When calling `concat` at the beginning of the third new datastream, the ones put aside are collected, and put through the final transformation.\
+The `|` here signifying, that we want to put the current data stream aside and start a new one. When calling `concat` at the beginning of the third new data stream, the ones put aside are collected, and put through the final transformation.\
 In a way, the `|` symbol could be considered optional, since for example in writing `list2` in our statement above, a term which does not take any input, it already is clear that we have to leave the current data stream dangling and start a new one, or raise a syntax error.
 
 
 ## Mathematical Expressions
 
-For better or worse, the use of infix operators in mathematical expressions is quite deeply ingrained into the way we think about calculations, even if that sometimes requires some juggling of symbols to achive the desired result. To take an example:
+For better or worse, the use of infix operators in mathematical expressions is quite deeply ingrained into the way we think about calculations, even if that sometimes requires some juggling of symbols to achieve the desired result. To take an example:
 
 `(1000 + 729) * (4096 + 8)`
 
@@ -166,7 +166,7 @@ Or, with allowing for type inference as done in Rust or Haskell:
 }
 ```
 
-As with the idea of parameters, in writing the function name before the code, we do go against the idea of data-first for the sake of readability, since generally, when looking at a function again at a later point in time, we tend to primarily be interested in it's name and signiature, so it makes sense to have that all in one place.
+As with the idea of parameters, in writing the function name before the code, we do go against the idea of data-first for the sake of readability, since generally, when looking at a function again at a later point in time, we tend to primarily be interested in it's name and signature, so it makes sense to have that all in one place.
 
 An alternative syntax that adheres more strictly to the data-first principle might look like this:
 

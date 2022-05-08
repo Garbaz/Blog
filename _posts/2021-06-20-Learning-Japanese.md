@@ -145,6 +145,3 @@ Also, note that most learning resources you will find online (apps, Youtube vide
 All that said, I also wouldn't recommend wasting money. There are enough good free resources out there, that spending a lot of money on expensive books or monthly memberships really isn't worth it (Looking at you Genki & Wanikani). I hope I have highlighted a few here that are helpful to you!
 
 Have fun & がんばれ！
-
-――――――――――――――――――――――――――――――
-
