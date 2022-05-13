@@ -124,7 +124,7 @@ Not only will your brain just tune out the spoken Japanese and only read the Eng
 
 ## Miscellaneous
 
- [__Yomichan__](https://foosoft.net/projects/yomichan/) (It can not be overstated how useful this browser extension is. It allows you to quickly and easily look up any Japanese text on the web, with some really great features, like one-click-adding of words to Anki and built-in sentence parsing. If you want, [here's my config](https://github.com/Garbaz/anki-cards/blob/master/yomichan-settings-2022-03-25-09-40-59.json)),
+ [__Yomichan__](https://foosoft.net/projects/yomichan/) (It can not be overstated how useful this browser extension is. It allows you to quickly and easily look up any Japanese text on the web, with some really great features, like one-click-adding of words to Anki and built-in sentence parsing. If you want, [here's my config](https://raw.githubusercontent.com/Garbaz/anki-cards/master/yomichan-settings-2022-03-25-09-40-59.json)),
 
 [Tatoeba](https://tatoeba.org/) (A collection of example sentences with translations from and to various languages),
 
