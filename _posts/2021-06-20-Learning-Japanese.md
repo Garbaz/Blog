@@ -97,7 +97,7 @@ On _Linux_ you can use [mpv](https://mpv.io/) with\
 `c run "/bin/sh" "-c" "printf '${sub-text}' | xsel -ib"`\
 in the file\
 `~/.config/mpv/input.conf`\
-, which will make it so that pressing the C key while watching will copy the current subtitle to the clipboard. Combined with an open browser window with Yomichan's search-page with Clipboard Monitor enabled, looking things up takes nothing more than a single keypress between pausing and having the full sentence ready to analyse in Yomichan.
+, which will make it so that pressing the C key while watching will copy the current subtitle to the clipboard. Combined with an open browser window with Yomichan's search-page with Clipboard Monitor enabled, looking things up takes nothing more than a single key-press between pausing and having the full sentence ready to analyse in Yomichan.
 
 Though generally, I would recommend to try to pause as little as necessary, and not to get into the habit of parsing every single line spoken with Yomichan. If you don't quite understand a sentence or word, keep going, it might become clear from context. If you get lost and no longer can follow the dialogue, then skip back, check what the words you didn't know meant, and watch the scene again with the additional context. Learning from context is a lot more powerful than learning through translation.\
 If you're feeling confident, you can also try to deliberately ignore the subtitles, and only glance down if you can't quite follow a line spoken, or again, skip back, and watch a scene again with subtitles, so you get the context for whatever comes afterwards.
@@ -110,7 +110,7 @@ Not only will your brain just tune out the spoken Japanese and only read the Eng
 
 ## Learning software
 
- [__Anki__](https://apps.ankiweb.net/) (Very useful, especially since Yomichan neatly integrates with it. I would highly recommend this over manual/physical flash cards. If you want, [here are my own Anki cards](https://github.com/Garbaz/anki-cards), just make a new card type with the right fields and copy the corresponding HTML/CSS)
+ [__Anki__](https://apps.ankiweb.net/) (Very useful, especially since Yomichan neatly integrates with it. I would highly recommend this over manual/physical flash cards. If you want, [here are my own Anki cards](https://github.com/Garbaz/anki-cards/tree/master/New%20Japanese), just make a new card type with the right fields and copy the corresponding HTML/CSS)
 
 
 ## Dictionary
