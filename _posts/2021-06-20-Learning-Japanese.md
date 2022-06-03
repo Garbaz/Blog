@@ -121,6 +121,8 @@ Not only will your brain just tune out the spoken Japanese and only read the Eng
 
 [Furigana.info](https://furigana.info) (For disambiguation between different readings of Kanji)
 
+[Akebi](https://play.google.com/store/apps/details?id=com.craxic.akebifree) (Dictionary for android; Not perfect, but very usable)
+
 
 ## Miscellaneous
 
@@ -145,3 +147,16 @@ Also, note that most learning resources you will find online (apps, Youtube vide
 All that said, I also wouldn't recommend wasting money. There are enough good free resources out there, that spending a lot of money on expensive books or monthly memberships really isn't worth it (Looking at you Genki & Wanikani). I hope I have highlighted a few here that are helpful to you!
 
 Have fun & がんばれ！
+
+## _A random assortment of links_
+
+- [A comprehensible input focused language learning website. It's kinda buggy, but has a decent assortment of stuff for Japanese](lingq.com/)
+- [A not-annoying Japanese learning podcast of sorts](https://www.youtube.com/channel/UCc8QJqwkWe9RcKYZTY2Ezuw)
+- [Japanese children stories audio](https://www.tuttlepublishing.com/ct-japanese-stories-language-learners)
+- [Listening comprehension practice &c](https://speechling.com/tools)
+- [Etymological origins of curious modern Japanese words](https://gogen-yurai.jp/)
+- [Japanese thesaurus (synonym dictionary)](https://thesaurus.weblio.jp/)
+- [Interesting articles about Japanese language history](https://switch-on.biz/category/japanese-history/)
+- [If you like Yuri, here's a Youtube channel all about it](https://www.youtube.com/channel/UCeSidHxJKSgWyLEcTh3dlkg) ([Also this one sometimes](https://www.youtube.com/c/%E6%B5%B7%E6%9C%AA%E7%8C%AB))
+- [And a Yuri Mangaka](https://www.youtube.com/channel/UCgE60uyDVM3v3DK4AARAYlA/)
+- [This one discusses ADHD/APD/etc. and plants](https://www.youtube.com/channel/UCgE60uyDVM3v3DK4AARAYlA/)
