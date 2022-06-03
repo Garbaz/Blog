@@ -1,5 +1,7 @@
 # Some Stuff about learning Japanese
 
+_Last Update: 2022-06-03_
+
 This is a list of resources I use(d) for learning Japanese, plus some blabbering.
 
 ## General introduction
@@ -58,8 +60,7 @@ And ultimately, the only thing you really have to beat into your head are the re
 Also, something you might notice when starting to read/watch something new, especially if it is in a genre or by a creator you don't have any experience with, is that you will suddenly come across a lot of unknown words or even have difficulty following the story. Almost as if you have been set back in your learning progress. However, this is simply due to every individual having a different writing style and every genre having it's unique terminology. You will notice this especially if you go for something from a different time period.\
 Don't take that as a blow to your confidence in the understanding of the language, it's just another opportunity to become familiar with new grammar and vocabulary.
 
-
-## Manga
+## Reading
 
 For the very beginning, I'd recommend starting with [Japanese fairytales](https://www.wasabi-jpn.com/japanese-lessons/fairy-tales-and-short-stories-with-easy-japanese/) (more [here](http://life.ou.edu/stories/) and [here](http://hukumusume.com/douwa/betu/index.html)) and other stories intended for children, since they usually feature simple vocabulary and grammatically clear sentences. See also : [Tofugu](https://www.tofugu.com/japanese/japanese-reading-practice-for-beginners/)  and [Crunchy Nihongo](http://crunchynihongo.com/beginner-japanese-reading-practice-book/) for more recommendations.
 
@@ -83,6 +84,16 @@ If, like me, you start out with reading mostly manga, once you try reading a nov
 In manga you are mostly only exposed to the language of dialogue, and you will notice that the language used to describe a scene in a story tends to be a completely different register. Just like with every other language, the words and grammatical constructs used in Japanese prose differs quite a lot from the normal spoken language. It might even feel at first like learning from zero all over again.
 
 Don't let that discourage you. You will have to accept that just like in the very beginning, each sentence, each page will take it's time, and you will have to look up a lot of new vocabulary at first, but it won't be long until you get accustomed to this new form of the language. You just have to get over the initial hump of a lot new things at once.
+
+## Listening comprehension
+
+This is a part I more or less ignored as I was learning Japanese, much more interested in learning to read than to understand spoken word, to the end that at a point I was comfortable reading Japanese novels, but could barely understand even audio material that was specifically made for learners. And in hindsight, I don't think that was a good idea. After specifically practising listening comprehension for a while, I've noticed that it has helped me a lot with also parsing written text much more fluidly, especially when it comes to stuff like colloquial dialogue / onomatopoeia / etc., things that when written down are missing much of the context and intonation you have in spoken word, which can only be alluded to.\
+So, my recommendation would be to get started with listening comprehension and reading in parallel. You might end up progressing much quicker in one or the other, so there is no need to keep then in sync, i.e. to read the same level of material as you are listening to.\
+One big challenge with practising listening comprehension is to find good material that suites your current abilities, vocabulary and interests. You might find something that suits two of those, but most likely not all three. And I would highly urge to prioritize the first two over the last one. There is not much value in listening to something far above what you can comprehend, where you only can make out single words in a soup of meaninglessness, or grasp snippets of a sentence from time to time (in my experience).\
+Instead, I would recommend an approach commonly called "Comprehensible Input", which in essence is the idea, that you always try to find material that you can fully understand, but still contains a small proportion of words you do not understand, who's meaning your mind automatically deduces from the context. One website fully dedicated to this approach (and the only language learning website/app I've ever found useful at all), is [Lingq](https://www.lingq.com/). It is not very well designed, and is kinda buggy in a few places, but what it does offer, is a quite sizeable collection of stories/articles/podcasts/etc., all with both audio and a transcript. These start from very simple [mini stories](https://www.lingq.com/en/learn/ja/web/library/course/411402) and go through a gradual progression of difficulty, up to regular Japanese texts like news articles. If you can somehow find your way through the awful user interface, there is quite a lot of decent material to be found there. Alternatively, you can just go look around for podcasts or Youtube channels focused on listening comprehension.\
+In terms of method, besides being honest with yourself and not trying to listen to stuff far above your current understanding in hopes of it somehow magically falling into place (which I was very much guilty of myself), my primary recommendation would be to listen to the same text a few times (maybe even a dozen or so times in the very beginning), ideally spread out across multiple days, until you can fully comprehend it without having to pause & rewind, check the transcript, or look up a word. If the text is challenging, try listening to it while reading the transcript alongside it, so that you have a good idea what is being said, before listening to it again without the transcript.\
+And don't listen it stuff the way you would perhaps with a podcast in your native language, where you do something else at the same time, only loosely paying attention, while still getting the gist of what is being talked about. This only works if your mind already is well attuned to parsing what is being said. To comprehend a new language, you really have to focus on the comprehension. Give it your full undivided attention, listen closely, but try not to concentrate on individual words or grammatical rules you might recognize. Rather ensure that you get the meaning of what is being said, that you stay with the story as it is told, and if you missed a word or a detail, ignore it and move on. If you get lost, loosing context for what is said afterwards, then you do pause, check the transcript, look up vocabulary, or ponder over the sentence for a while, before you rewind and listen again.\
+One major challenge when are just getting started, is that you really have to spend quite some time with the most dead-simple and dull texts imaginable, so that your mind gets used to parsing sentences in Japanese, and that can get boring really fast. It doesn't help that a lot of beginner material features just the most generic and boring stories, which do not help in the slightest in remaining engaged. Hearing about XYZ going to the restaurant is just not very riveting. So it is worth it to seek out stuff that is at least marginally interesting to you. Though as said before, you'll have to restrain yourself from latching onto material that's too far above your current abilities, hoping for the best. If you're just hearing a lot of sound with a sprinkling of key words and phrases that you know, you are not going to learn much. If your mind is not parsing what is being said, but rather only listening out for hints to get an idea of what is being talked about, it is not all too useful listening comprehension practise.
 
 
 ## Anime with Japanese subtitles
@@ -150,7 +161,6 @@ Have fun & がんばれ！
 
 ## _A random assortment of links_
 
-- [A comprehensible input focused language learning website. It's kinda buggy, but has a decent assortment of stuff for Japanese](lingq.com/)
 - [A not-annoying Japanese learning podcast of sorts](https://www.youtube.com/channel/UCc8QJqwkWe9RcKYZTY2Ezuw)
 - [Japanese children stories audio](https://www.tuttlepublishing.com/ct-japanese-stories-language-learners)
 - [Listening comprehension practice &c](https://speechling.com/tools)
