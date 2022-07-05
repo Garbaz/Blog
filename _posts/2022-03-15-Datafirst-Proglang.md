@@ -1,6 +1,8 @@
 
 # A Data-First Programming Language
 
+__(Update: All further considerations in [rpnfl](https://github.com/Garbaz/rpnfl))__
+
 Most programming languages are constructed in analogy to the SVO (Subject Verb Object) word order found in the English language.
 
 `Subject.Verb(Object)`

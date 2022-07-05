@@ -34,7 +34,7 @@ Something I've found vital above all, is motivation. It doesn't matter how good 
 
 Of course there is the macro motivation of understanding a new language, but unfortunately, at least I find the process of language learning far too slow, for such a long term goal to keep me motivated. There has to be some micro motivation to whatever I am doing right now.
 
-Therefore, against all recommendations, I tend to rather quickly dive into material far above my understanding. Instead, I take my time, going one sentence, one paragraph, one page, at a time, jumping into grammar explanations and vocabulary definitons as I go along. I take each sentence as a riddle to be solved.
+Therefore, against all recommendations, I tend to rather quickly dive into material far above my understanding. Instead, I take my time, going one sentence, one paragraph, one page, at a time, jumping into grammar explanations and vocabulary definitions as I go along. I take each sentence as a riddle to be solved.
 
 The advantage of that approach, is that I enjoy it, the disadvantage, is that I encounter all vocabulary equally, from fundamental to obscure, and therefore will require more time to get familiar with common words and constructions, than if I had started out with simpler stories.
 

@@ -45,7 +45,7 @@ In particular in the case of other complex Agents being part of the Environment,
 
 ### Self
 
-While the Actor themselves as part of their Environment has to be considered in some form in every Mind, a Modelling Agent in particular, can develop a model of their Self, their own phyiscal presence in their Environment, and any internal influences upon their decisions.
+While the Actor themselves as part of their Environment has to be considered in some form in every Mind, a Modelling Agent in particular, can develop a model of their Self, their own physical presence in their Environment, and any internal influences upon their decisions.
 
 ### Communication
 
