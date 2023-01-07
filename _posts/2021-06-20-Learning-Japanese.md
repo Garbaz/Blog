@@ -1,6 +1,6 @@
 # Some Stuff about learning Japanese
 
-_Last Update: 2022-06-03_
+_Last Update: 2023-01-07_
 
 This is a list of resources I use(d) for learning Japanese, plus some blabbering.
 
@@ -145,6 +145,7 @@ Not only will your brain just tune out the spoken Japanese and only read the Eng
 
 [sljfaq's handwritten kanji recognizer](https://kanji.sljfaq.org/draw.html) (While there are a lot of handwritten kanji tools, this one is the only one I've had consistent success with, especially with the "Ignore stroke order" option it's very handy for looking up kanji where one doesn't recognize any clear radicals)
 
+[Reverso](https://context.reverso.net/translation/english-japanese/) (A site with a huge collection of examples sentences with translations. I use it a lot whenever I think "This phrase in English, how would you express the same sentiment in natural Japanese?". A lot more helpful often times than consulting the dictionary)
 
 ## __A general note__
 
