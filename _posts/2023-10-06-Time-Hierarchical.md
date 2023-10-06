@@ -1,6 +1,6 @@
 # Time Hierarchical Predictive World Model Architecture
 
-This is an idea for an architecture for artifical intelligence.
+This is an idea for an architecture for artificial intelligence.
 
 Like quite a few people in the world of cognitive science and AI research, I consider the core of human intelligence a predictive model of the world, and the most important challenge to develop true AI to be: How can we build machines that also do this?
 
@@ -13,7 +13,7 @@ Our thought isn't only spatially hierarchical, it also is hierarchical in two fu
 
 The abstraction hierarchy differs from the other two dimensions of space and time in that it doesn't correspond to anything physical in the world. I can consider the movement of another person's hand concretely, how the fingers curl, how the hand moves around, say if I were to want to dodge it in a boxing match. But I can also consider the movement of the hand more abstractly, as a particular boxing move, or a communicative gesture.
 
-So the model of the world that we actively hold in our head at any point in time can be small scale or large scale (spatial), short term or long term (temporal), and concrete or abstract (abstraction). There are many levels in each of these three dimensions, and notably, these levels are not continous. Rather, if we want to consider the world at say a different spatial scale, we make a discontinous transition. E.g. from considering the grain of rice to considering the bowl as a whole.
+So the model of the world that we actively hold in our head at any point in time can be small scale or large scale (spatial), short term or long term (temporal), and concrete or abstract (abstraction). There are many levels in each of these three dimensions, and notably, these levels are not continuous. Rather, if we want to consider the world at say a different spatial scale, we make a discontinuous transition. E.g. from considering the grain of rice to considering the bowl as a whole.
 
 But these three hierarchy dimensions are *not* uncorrelated! Transitioning a level up in one dimensions generally also corresponds to transitioning a level up in the other dimensions. E.g. When I go from thinking about the movement of an animals limbs about the animal as a whole, I also go from thinking about what will happen in the next fraction of a second to what will happen in the next few seconds, and I also go from thinking about the concrete dynamics of the animal's body, to the more abstract pathing and goals the animal is going for. The larger of a part of the world we are considering, the less concrete our representation can be, and the less short term our predictions can be. And the other way around, if want to think about the long term, the dynamics of a small part of the world become chaotic and untractable, so we have to consider the world at a larger scale and more abstractly.
 
@@ -48,21 +48,21 @@ From this change in the level 4 embedding, changes to the predicted level 3 embe
 
 ## Training
 
-At least if we use a fixed function for deriving higher-level embeddings from the embeddings below it, and a pre-trained video frame embedding function, training is straightfoward.
+At least if we use a fixed function for deriving higher-level embeddings from the embeddings below it, and a pre-trained video frame embedding function, training is straightforward.
 
 From a given sequence of input data, we compute the level 0 embeddings, which then the level 0 dynamics model learns to predict. Given we can just directly compute the target higher level embeddings, we can just as easily train the higher level dynamics models.
 
-For the top-down planning models, we randomly perturb the top-level embedding. From this a pertubation to the left embedding (assuming that our time scales are powers of two; For higher powers the following is repeated multiple times) one level down is predicted. Given the perturbed left embedding, the right embedding is predicted by the dynamics model. Given this new right embedding and the embedding one level up, a pertubation to the right embedding is predicted (It might be for example that the overall goal doesn't actually require any further action after some point, e.g. If I want a ball to be downhill, I can just give it a push and the rest is just the dynamics of the world without requiring any further intervention. In this case the planning model would not impose any further pertubation after the first one).
+For the top-down planning models, we randomly perturb the top-level embedding. From this a pertubation to the left embedding (assuming that our time scales are powers of two; For higher powers the following is repeated multiple times) one level down is predicted. Given the perturbed left embedding, the right embedding is predicted by the dynamics model. Given this new right embedding and the embedding one level up, a perturbation to the right embedding is predicted (It might be for example that the overall goal doesn't actually require any further action after some point, e.g. If I want a ball to be downhill, I can just give it a push and the rest is just the dynamics of the world without requiring any further intervention. In this case the planning model would not impose any further pertubation after the first one).
 
 From this perturbed and predicted lower level sequence (or pair, in the case of power of two time scales), we can once again compute with the fixed bottom up function the resulting embedding one level up, which should be the same as the embedding we started with (Is there a danger of collapse here?). And so be backpropagate to update the planning model.
 
 
 ## Open Questions
 
-Some of the above observations about the hierachies in human thought are not incorporated into this architecture. For one, this architecture does always think at all levels of the hierarchy at once. Or at least it does not have any mechanism for the sort of transitions between levels that we make as humans. This could be considered a disadvantage given the fact that we humans constantly re-use patterns that we recognized at on level at another level. The architecture described here would have to learn these patterns at every level seperately.
+Some of the above observations about the hierarchies in human thought are not incorporated into this architecture. For one, this architecture does always think at all levels of the hierarchy at once. Or at least it does not have any mechanism for the sort of transitions between levels that we make as humans. This could be considered a disadvantage given the fact that we humans constantly re-use patterns that we recognized at on level at another level. The architecture described here would have to learn these patterns at every level separately.
 
 However, a thing to note is that the space and abstraction hierarchy dimensions are not directly constrained by the architecture in any way. Only how long of a time span is represented at each level of the model is fixed. There, at least in principle, it would be possible for the model to learn to use one level in the architecture for different spatial or abstraction levels, depending on the circumstance.
 
 ## Further Ideas
 
-- Attention operating on the raw input data could be introduced, just like our visual attention mechanism. Instead of the level 0 embeddings representing the whole image, it might only represent a certain part of the image, or represent the image under some more general trasformation. How is this attention steered?
+- Attention operating on the raw input data could be introduced, just like our visual attention mechanism. Instead of the level 0 embeddings representing the whole image, it might only represent a certain part of the image, or represent the image under some more general transformation. How is this attention steered?
