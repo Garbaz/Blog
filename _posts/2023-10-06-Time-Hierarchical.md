@@ -22,7 +22,7 @@ But these three hierarchy dimensions are *not* uncorrelated! Transitioning a lev
 
 A big problem in engineering actually useful AI systems is: How the hell do you actually get it to make something happen? It's all well and good to have a model that passively observes the world, perhaps commenting on it in terms of image classifications or segmentations, or even by producing text. But in the end, we want a system that can strive for a long term goal, be it making me a cup of tea or helping humanity prosper.
 
-So in the context of the hierarch(ies|y) of space, time and abstraction, what constitutes planning? What is a goal?
+So in the context of the hierarch(ies/y) of space, time and abstraction, what constitutes planning? What is a goal?
 
 A goal is a high-level imposition on the world model. E.g. I consider a potted plant on the time scale of days or weeks and my world model predicts that it will whither. However, I do not want this to happen, so I impose onto the world model that the plant should still be healthy in a week. What does this mean? It's time for planning.
 
