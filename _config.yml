@@ -17,14 +17,14 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-
 titles_from_headings:
   strip_title: true
   collections: true
 
 defaults:
-  - scope:
+  - 
+    scope:
       path: ""
-      type: post
+      type: posts
     values:
-      tags: Other
+      tags: [Other]
