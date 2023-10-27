@@ -1,0 +1,18 @@
+# Energy as Surprisal
+
+Say you flipped a coin in the air and caught it in a closed hand. Just before you smack it on the table for a dramatic reveal, what do you expect to see when you pull back your hand? You do expect to see a coin, and not rose petal. You have a clear expectation about the shape, the size, the color of the coin. But when looking at the details on the back of the coin, what will you see? A number? Maybe. A head? Maybe. A completely blank coin? Probably not.
+
+The model of the world that we hold in our head is predictive. It is not just that we represent the current state of our senses in some manner, we directly make predictions about what we will see, hear and feel next. But there is a lot of information about the world that we at the same time do want to represent in our head, but can not now exactly. Is the coin we threw heads or tails? Our model of the world is not just predictive, but probabilistic. If I reveal the coin, I am neither surprised when I see a number, nor am I surprised when I see a head. But I am surprised when the coin suddenly is replaced by a different object.
+
+How can we implement this in an NN architecture?
+
+
+## Don't Predict, Judge
+
+I could just train a function that produces a prediction for the next frame of video from the current frame of video (or maybe rather predicts embedding from embedding). But if I were to present this model with a video of the above coin throw scenario, it would have no way to represent it's expectation about the frame of video where the coin is revealed. It could predict one option, or the other, or maybe predict some visual mixture of the two to minimize the expected loss, but it could not represent in any way the certainty that either the frame will show one or the frame will show the other, but definitely not anything else.
+
+However, we could instead train a function which does not directly go from the current video frame to a prediction for the next video frame, but rather simply takes as it's inputs the current video frame and some potential next video frame, and *judges* whether this is a good prediction or not, i.e. whether it would be a *surprising* continuation of the video. If given the frame before the coin reveal, and a frame of the coin revealed as heads, it would learn not to be surprised. If given the frame before the coin reveal, and a frame of the coin revealed as tails, it would learn to neither be surprised. If however given the frame before the coin reveal, and a frame of the coin revealed as blank, or with no coin, or with a rose petal, etc., it would learn to be surprised.
+
+Now, if this "surprisal" (aka. energy) function is differentiable (say some NN), and the embedding space of the video frames not too rugged (say very high-dimensional), we can simply use, *at runtime*, gradient descend to arrive at a concrete prediction about most visual information to come, i.e. that there will be a coin on the table, it's shape and size and color. And we can sample one of the possible predictions of what the coin will show, if we want.
+
+Also of note, contrary to other possible approaches to allow for encoding of distributions in the embedding space of a NN, with this surprisal function approach, encoding continuous distributions is just as easy as encoding discrete distributions. Or rather, our surprisal function always represents a continuous distribution over the whole embedding space, with discrete distributions being the limit case of low energy being highly localized.
