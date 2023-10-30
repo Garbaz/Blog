@@ -33,12 +33,4 @@ The embedding spaces of these two modalities are completely unrelated, encoding 
 
 Just like the surprisal models, we introduce an energy based "agreement" model. This model takes a given visual embedding and an auditory embedding and judges whether there is a disagreement about the state of the world.
 
----
-
-**WIP WIP WIP**
-
-But how do we train this?
-
-Use agreement in surprisal (as hinted above)? Or agreement in certainty (i.e. how concentrated are the different energy functions)?
-
-Also: In a real analog systems, we don't have the "current frame" and the "next frame" as memory locations. Rather our surprisal function would be the current state of some embedding function's output and it's derivative (?).
+(incomplete, see [a more recent blog post](2023-10-30-Energy-Network.md) for an architecture that builds on these ideas)
