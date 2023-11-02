@@ -1,4 +1,4 @@
-# We need both Energy and Direct Prediction
+# We need both Energy and Expectation
 
 The world is unpredictable, at least in the sense that given the current state of the world, we can not exactly predict what the next state will be. Be that due to unobservable dynamics (e.g. the thought process of another actor influencing their actions), or simply due to the sheer complexity of the world exceeding what we can model with limited computational capacities. But the world also is predictable, in the sense that given the current state of the world, there are many states that are impossible, or rather highly *unlikely*, to come next, while some states are quite *likely*. Ergo our world model has to be probabilistic, in the sense that it does not directly predict a next state given the current state, but rather produces a probability distribution over the space of next states.
 
@@ -60,4 +60,6 @@ No, a very important practical problem remains: How do we sample from the distri
 
 ---
 
-**To be elaborated:** We should learn both $predict \in \mathcal{S} \times \mathcal{S} \rightarrow \mathbb{R}$ and $expect(s') := \mathbb{E}_{s \in \mathcal{S}}(p_{predict}(s | s'))$. 
+**To be elaborated:** Argue that we should learn both $predict \in \mathcal{S} \times \mathcal{S} \rightarrow \mathbb{R}$ and $expect(s') := \mathbb{E}_{s \in \mathcal{S}}(p_{predict}(s | s'))$. 
+
+Also: (How) do we represent uncertainty about in current state?
