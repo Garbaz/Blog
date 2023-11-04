@@ -1,4 +1,4 @@
-# We need both Energy and Expectation
+# We need both Prediction and Expectation
 
 The world is unpredictable, at least in the sense that given the current state of the world, we can not exactly predict what the next state will be. Be that due to unobservable dynamics (e.g. the thought process of another actor influencing their actions), or simply due to the sheer complexity of the world exceeding what we can model with limited computational capacities. But the world is at the same time also predictable, in the sense that given the current state of the world, there are many states that are impossible, or rather highly *unlikely*, to come next, while some states are quite *likely*. Ergo our world model has to be probabilistic, in the sense that it does not directly predict a next state given the current state, but rather produces a probability distribution over the space of possible next states.
 
