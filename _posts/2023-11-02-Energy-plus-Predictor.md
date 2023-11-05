@@ -78,7 +78,7 @@ And these caveats are not just theoretical imperfections. In the end, in one way
 
 So, here's what I would like to argue in this blog post:
 
-We need to learn both a function $$predict \in \mathcal{S} \times \mathcal{S} \rightarrow \mathbb{R}$$ modelling the actual distribution of possible continuations, and a function $$expect(s') \approx \mathbb{E}_{predict}(s | s')$$ modelling the expectation of possible continuations.
+We need to learn both a function $$predict \in \mathcal{S} \times \mathcal{S} \rightarrow \mathbb{R}$$ modelling the actual distribution of possible continuations, and a function $$expect(s') \approx \mathbb{E}_{predict}(s \| s')$$ modelling the expectation of possible continuations.
 
 Why?
 
