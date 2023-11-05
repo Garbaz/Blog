@@ -62,7 +62,7 @@ Not quite, a rather big practical problem remains: How do we sample from the (im
 
 ## Prediction Sampling
 
-There is a very simple solution available to us. Instead of going through the entire trouble of representing somehow the full distribution of possible next states and then taking samples from it, we could just model the expectation of the distribution $\mathbb{E}_{predict}(s | s')$. In essence, we sidestep the whole issue of our prediction being by necessity probabilistic and pretend that it is deterministic. What's the issue?
+There is a very simple solution available to us. Instead of going through the entire trouble of representing somehow the full distribution of possible next states and then taking samples from it, we could just model the expectation of the distribution $\mathbb{E}_{predict}(s \| s')$. In essence, we sidestep the whole issue of our prediction being by necessity probabilistic and pretend that it is deterministic. What's the issue?
 
 The issue is that the expected value of a distribution is not necessarily a value with non-zero or significant probability weight.
 
