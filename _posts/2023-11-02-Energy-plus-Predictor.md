@@ -34,7 +34,7 @@ The prime example of such a world is language. Be it at the level of letters, wo
 
 The problem is that the space of states of the real world, and by extension the space of any less abstract modal transformations of it, like vision or audition, isn't finite or even discrete. Or if we do consider it as finite, like RGB images of a fixed width and height, the number of possible states is far too large to reasonable express distributions over the state space explicitly. What do we do?
 
-Instead of some vector space of finite dimension, like $\mathbb{R}^n$ aka $\{1,..,n\} \rightarrow \mathbb{R}$, to represent distributions over possible states, we need an infinite dimensional vector space, like $\mathbb{R} \rightarrow \mathbb{R}$ or perhaps $\mathbb{R}^m \rightarrow \mathbb{R}$ for some $m \in \mathbb{N}$. Or really any space of functions $\mathcal{S} \rightarrow \mathbb{R}$ for some infinite space $\mathcal{S}$ representing the possible states of the world.
+Instead of some vector space of finite dimension, like $$\mathbb{R}^n$$ aka $$\{1,..,n\} \rightarrow \mathbb{R}$$, to represent distributions over possible states, we need an infinite dimensional vector space, like $$\mathbb{R} \rightarrow \mathbb{R}$$ or perhaps $$\mathbb{R}^m \rightarrow \mathbb{R}$$ for some $$m \in \mathbb{N}$$. Or really any space of functions $$\mathcal{S} \rightarrow \mathbb{R}$$ for some infinite space $$\mathcal{S}$$ representing the possible states of the world.
 
 $$
 \begin{align*}
