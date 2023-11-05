@@ -53,16 +53,16 @@ p_{predict}(state | state') & \sim predict(s')(s)
 \end{align*}
 $$
 
-I.e. our predictive world model no longer returns a directly representable value from a finite vector space, e.g. $distr \in \mathbb{R}^n$, but rather a a value from an infinite dimensional vector space, e.g. a function $distr \in \mathbb{R}^m \rightarrow \mathbb{R}$.
+I.e. our predictive world model no longer returns a directly representable value from a finite vector space, e.g. $$distr \in \mathbb{R}^n$$, but rather a a value from an infinite dimensional vector space, e.g. a function $$distr \in \mathbb{R}^m \rightarrow \mathbb{R}$$.
 
-But, as anyone familiar with the concept of currying from functional programming will know, there is a direct correspondence between the space of functions $X \rightarrow (Y \rightarrow Z)$ and the space of functions $(X \times Y) \rightarrow Z$. Therefore, instead of considering our predictive world model as a function $predict \in \mathcal{S} \rightarrow (\mathcal{S} \rightarrow \mathbb{R})$, we represent it as a function $predict \in (\mathcal{S} \times \mathcal{S}) \rightarrow \mathbb{R}$. We once again have a function that can be directly represented. Problem solved?
+But, as anyone familiar with the concept of currying from functional programming will know, there is a direct correspondence between the space of functions $$X \rightarrow (Y \rightarrow Z)$$ and the space of functions $$(X \times Y) \rightarrow Z$$. Therefore, instead of considering our predictive world model as a function $$predict \in \mathcal{S} \rightarrow (\mathcal{S} \rightarrow \mathbb{R})$$, we represent it as a function $$predict \in (\mathcal{S} \times \mathcal{S}) \rightarrow \mathbb{R}$$. We once again have a function that can be directly represented. Problem solved?
 
-Not quite, a rather big practical problem remains: How do we sample from the (implicit) distribution $distr \in \mathcal{S} \rightarrow \mathbb{R}$ that our predictive world model produces?
+Not quite, a rather big practical problem remains: How do we sample from the (implicit) distribution $$distr \in \mathcal{S} \rightarrow \mathbb{R}$$ that our predictive world model produces?
 
 
 ## Prediction Sampling
 
-There is a very simple solution available to us. Instead of going through the entire trouble of representing somehow the full distribution of possible next states and then taking samples from it, we could just model the expectation of the distribution $\mathbb{E}_{predict}(s \| s')$. In essence, we sidestep the whole issue of our prediction being by necessity probabilistic and pretend that it is deterministic. What's the issue?
+There is a very simple solution available to us. Instead of going through the entire trouble of representing somehow the full distribution of possible next states and then taking samples from it, we could just model the expectation of the distribution $$\mathbb{E}_{predict}(s \| s')$$. In essence, we sidestep the whole issue of our prediction being by necessity probabilistic and pretend that it is deterministic. What's the issue?
 
 The issue is that the expected value of a distribution is not necessarily a value with non-zero or significant probability weight.
 
@@ -72,27 +72,27 @@ This problem can be observed in real systems, and even with much more determinis
 
 So, we have not choice but to model the actual distribution and sample from it, right?
 
-The good news is that this problem where we have some distribution $\pi$ for which we can compute $p_{\pi}(\cdot)$, but do not have any way to directly produce representative samples, is quite common. Consequently, much thought has been invested over the past decades into coming up with approaches to solve it. Today, there is a wealth of off-the-shelf algorithms that we could choose from. The bad news is that, every such algorithm comes with many prerequisites and caveats. There is no silver bullet when it comes to sampling procedures.
+The good news is that this problem where we have some distribution $$\pi$$ for which we can compute $$p_{\pi}(\cdot)$$, but do not have any way to directly produce representative samples, is quite common. Consequently, much thought has been invested over the past decades into coming up with approaches to solve it. Today, there is a wealth of off-the-shelf algorithms that we could choose from. The bad news is that, every such algorithm comes with many prerequisites and caveats. There is no silver bullet when it comes to sampling procedures.
 
-And these caveats are not just theoretical imperfections. In the end, in one way or another, these algorithms have no choice but to somehow pull values out of some (oh so cleverly crafted) hat at will and check how probable these values are under the given distribution $\pi$. The wonkier the shape of the probability landscape under $\pi$, the difficulter it becomes to effectively do this pulling out the hat procedure. As a consequence, it generally requires many sampling steps to actually get values representative of our distribution.
+And these caveats are not just theoretical imperfections. In the end, in one way or another, these algorithms have no choice but to somehow pull values out of some (oh so cleverly crafted) hat at will and check how probable these values are under the given distribution $$\pi$$. The wonkier the shape of the probability landscape under $$\pi$$, the difficulter it becomes to effectively do this pulling out the hat procedure. As a consequence, it generally requires many sampling steps to actually get values representative of our distribution.
 
 So, here's what I would like to argue in this blog post:
 
-We need to learn both a function $predict \in \mathcal{S} \times \mathcal{S} \rightarrow \mathbb{R}$ modelling the actual distribution of possible continuations, and a function $expect(s') \approx \mathbb{E}_{predict}(s | s')$ modelling the expectation of possible continuations.
+We need to learn both a function $$predict \in \mathcal{S} \times \mathcal{S} \rightarrow \mathbb{R}$$ modelling the actual distribution of possible continuations, and a function $$expect(s') \approx \mathbb{E}_{predict}(s | s')$$ modelling the expectation of possible continuations.
 
 Why?
 
-## $predict$ and $expect$
+## $$predict$$ and $$expect$$
 
 To go back to the example scenario given earlier with the playing card about to be revealed. Our system modelling the expected value of the next video frame produces a blurry mess of a playing card, which of course is not actually a possible next value. The thing is though, this blurry mess of a prediction is not any old blurry mess. It is a blurry mess that is quite close to the actually possible continuations, sitting in a valley of low probability (or hill of high energy, same same) in between high probability values.
 
 As I said earlier, in general, sampling procedures have a hard time with rocky probability terrain, and require significant time to converge to good samples. But the thing is, a big factor for many of these procedures in determining how fast it will converge is the choice of starting point.
 
-So we have a function $predict$ which gives us a distribution we want to sample from, and a function $expect$ which gives us a value that is, ideally, close to some high-probability values, even if itself is of low-probability. Ergo:
+So we have a function $$predict$$ which gives us a distribution we want to sample from, and a function $$expect$$ which gives us a value that is, ideally, close to some high-probability values, even if itself is of low-probability. Ergo:
 
 *¿Por Qué No Los Dos?*
 
-Compute the expected value with $expect$, and take it as a starting point to sample from the distribution given by $predict$.
+Compute the expected value with $$expect$$, and take it as a starting point to sample from the distribution given by $$predict$$.
 
 
 
@@ -105,4 +105,4 @@ Compute the expected value with $expect$, and take it as a starting point to sam
 
 - (How) do we represent uncertainty about the current state?
 
-- Multiple $expect$ functions (like multiple attention heads; ?) || A noise-parametrised $expect$ function to quickly re-sample a new (reasonable) starting point (?) || Or can we just have noise in the sampling prodecure (?)
+- Multiple $$expect$$ functions (like multiple attention heads; ?) || A noise-parametrised $$expect$$ function to quickly re-sample a new (reasonable) starting point (?) || Or can we just have noise in the sampling prodecure (?)
