@@ -1,6 +1,8 @@
 # We need both Prediction and Expectation
 
-The world is unpredictable, at least in the sense that given the current state of the world, we can not exactly predict what the next state will be. Be that due to unobservable dynamics (e.g. the thought process of another actor influencing their actions), or simply due to the sheer complexity of the world exceeding what we can model with limited computational capacities. But the world is at the same time also predictable, in the sense that given the current state of the world, there are many states that are impossible, or rather highly *unlikely*, to come next, while some states are quite *likely*. Ergo our world model has to be probabilistic, in the sense that it does not directly predict a next state given the current state, but rather produces a probability distribution over the space of possible next states.
+The world is unpredictable, at least in the sense that given the current state of the world, we can not exactly predict what the next state will be. Be that due to unobservable dynamics (e.g. the thought process of another actor influencing their actions), or simply due to the sheer complexity of the world exceeding what we can model with limited computational capacities.
+
+But the world is at the same time also predictable, in the sense that given the current state of the world, there are many states that are impossible, or rather highly *unlikely*, to come next, while some states are quite *likely*. Ergo our world model has to be probabilistic, in the sense that it does not directly predict a next state given the current state, but rather produces a probability distribution over the space of possible next states.
 
 
 ## Small Finite State Space
@@ -14,7 +16,7 @@ $$
 \mathcal{S} & := \{state_1, ..., state_n\}\\
 state & \in \mathcal{S}\\
 distr & \in \mathbb{R}^n\\
-p_{distr}(state_i) & \sim distr[i]
+p_{distr}(state_i) & \propto distr[i]
 \end{align*}
 $$
 
@@ -23,7 +25,7 @@ So a function predicting the next state from a previous state would be of the fo
 $$
 \begin{align*}
 predict & \in \mathcal{S} \rightarrow \mathbb{R}^n\\
-p_{predict}(state_i | state_j) & \sim predict(state_j)[i]
+p_{predict}(state_i \vert state_j) & \propto predict(state_j)[i]
 \end{align*}
 $$
 
@@ -40,7 +42,7 @@ $$
 \begin{align*}
 state & \in \mathcal{S}\\
 distr & \in \mathcal{S} \rightarrow \mathbb{R}\\
-p_{distr}(state) & \sim distr(s)
+p_{distr}(state) & \propto distr(s)
 \end{align*}
 $$
 
@@ -49,7 +51,7 @@ So the predictive world model for a world with a high or infinite number of stat
 $$
 \begin{align*}
 predict & \in \mathcal{S} \rightarrow (\mathcal{S} \rightarrow \mathbb{R})\\
-p_{predict}(state | state') & \sim predict(s')(s)
+p_{predict}(state \vert state') & \propto predict(state')(state)
 \end{align*}
 $$
 
@@ -62,7 +64,7 @@ Not quite, a rather big practical problem remains: How do we sample from the (im
 
 ## Prediction Sampling
 
-There is a very simple solution available to us. Instead of going through the entire trouble of representing somehow the full distribution of possible next states and then taking samples from it, we could just model the expectation of the distribution $$\mathbb{E}_{predict}(s \| s')$$. In essence, we sidestep the whole issue of our prediction being by necessity probabilistic and pretend that it is deterministic. What's the issue?
+There is a very simple solution available to us. Instead of going through the entire trouble of representing somehow the full distribution of possible next states and then taking samples from it, we could just model the expectation of the distribution $$\mathbb{E}_{predict}(s \vert s')$$. In essence, we sidestep the whole issue of our prediction being by necessity probabilistic and pretend that it is deterministic. What's the issue?
 
 The issue is that the expected value of a distribution is not necessarily a value with non-zero or significant probability weight.
 
@@ -70,7 +72,7 @@ Say we have a series of video frames showing a hand reaching for a face down pla
 
 This problem can be observed in real systems, and even with much more deterministic scenes. There are simply too many possible different continuations in video frames of real world scenes that a system modelling the expected value will give us actually possible continuations of the scene at hand.
 
-So, we have not choice but to model the actual distribution and sample from it, right?
+So, we have no choice but to model the actual distribution and sample from it, right?
 
 The good news is that this problem where we have some distribution $$\pi$$ for which we can compute $$p_{\pi}(\cdot)$$, but do not have any way to directly produce representative samples, is quite common. Consequently, much thought has been invested over the past decades into coming up with approaches to solve it. Today, there is a wealth of off-the-shelf algorithms that we could choose from. The bad news is that, every such algorithm comes with many prerequisites and caveats. There is no silver bullet when it comes to sampling procedures.
 
@@ -78,7 +80,7 @@ And these caveats are not just theoretical imperfections. In the end, in one way
 
 So, here's what I would like to argue in this blog post:
 
-We need to learn both a function $$predict \in \mathcal{S} \times \mathcal{S} \rightarrow \mathbb{R}$$ modelling the actual distribution of possible continuations, and a function $$expect(s') \approx \mathbb{E}_{predict}(s \| s')$$ modelling the expectation of possible continuations.
+We need to learn both a function $$predict \in \mathcal{S} \times \mathcal{S} \rightarrow \mathbb{R}$$ modelling the actual distribution of possible continuations, and a function $$expect(s') \approx \mathbb{E}_{predict}(s \vert s')$$ modelling the expectation of possible continuations.
 
 Why?
 
