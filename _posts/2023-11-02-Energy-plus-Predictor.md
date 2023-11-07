@@ -86,7 +86,7 @@ Why?
 
 ## $$predict$$ and $$expect$$
 
-To go back to the example scenario given earlier with the playing card about to be revealed. Our system modelling the expected value of the next video frame produces a blurry mess of a playing card, which of course is not actually a possible next value. The thing is though, this blurry mess of a prediction is not any old blurry mess. It is a blurry mess that is quite close to the actually possible continuations, sitting in a valley of low probability (or hill of high energy, same same) in between high probability values.
+To go back to the example scenario given earlier with the playing card about to be revealed. Our system modelling the expected value of the next video frame produces a blurry mess of a playing card, which of course is not actually a possible next value. The thing is though, this blurry mess of a prediction is not any old blurry mess. It is a blurry mess that is quite close to the actually possible continuations, sitting in a valley of low probability in between high probability values.
 
 As I said earlier, in general, sampling procedures have a hard time with rocky probability terrain, and require significant time to converge to good samples. But the thing is, a big factor for many of these procedures in determining how fast it will converge is the choice of starting point.
 
@@ -94,17 +94,5 @@ So we have a function $$predict$$ which gives us a distribution we want to sampl
 
 *¿Por Qué No Los Dos?*
 
-Compute the expected value with $$expect$$, and take it as a starting point to sample from the distribution given by $$predict$$.
+Compute the expected value with $$expect$$, and take it as a starting point to efficiently sample from the distribution given by $$predict$$.
 
-
-
----
----
-
-*To be elaborated:* 
-
-- Why not just the current state? => Continuous and discontinuous transitions in world state.
-
-- (How) do we represent uncertainty about the current state?
-
-- Multiple $$expect$$ functions (like multiple attention heads; ?) || A noise-parametrised $$expect$$ function to quickly re-sample a new (reasonable) starting point (?) || Or can we just have noise in the sampling prodecure (?)
