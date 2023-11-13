@@ -22,6 +22,8 @@ plugins:
   # - jekyll-remote-theme
   # - jekyll-scholar
 
+markdown: GFM
+
 # kramdown:
 #   math_engine: katex
 #   math_engine_opts:
