@@ -22,12 +22,12 @@ plugins:
   # - jekyll-remote-theme
   # - jekyll-scholar
 
-markdown: GFM
+markdown: kramdown
 
-# kramdown:
-#   math_engine: katex
-#   math_engine_opts:
-#     output: mathml
+kramdown:
+  math_engine: katex
+  # math_engine_opts:
+  #   output: mathml
 
 titles_from_headings:
   strip_title: true
