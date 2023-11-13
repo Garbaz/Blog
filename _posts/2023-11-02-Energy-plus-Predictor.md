@@ -4,6 +4,8 @@ The world is unpredictable, at least in the sense that given the current state o
 
 But the world is at the same time also predictable, in the sense that given the current state of the world, there are many states that are impossible, or rather highly *unlikely*, to come next, while some states are quite *likely*. Ergo our world model has to be probabilistic, in the sense that it does not directly predict a next state given the current state, but rather produces a probability distribution over the space of possible next states.
 
+$\theta$
+
 
 ## Small Finite State Space
 
