@@ -60,7 +60,7 @@ If we once again adopt machine learning terminology for a moment and take a pers
 In the human mind, this cognitive optimization behavior manifests in the form of expectations that we have. If I flip a coin in the air, catch it and slap it on the table, the mind expects to see a coin again once the hand is lifted, and not nothing or a rose petal. We also expect it to be heads or tails, and not for it to suddenly be blank.
 
 
-# Why Cognition?
+## Why Cognition?
 
 In short: The model state internal to a cognitive system converges to mirror the external state of the world. Consequently, as it's name suggests, it becomes a model of the external world. How so?
 
@@ -85,6 +85,12 @@ $$
 \end{align*}
 $$
 
+
+## But *Why* Cognition?
+
+Because cognition is highly useful for intelligence.
+
+The internal dynamics of an intelligent system are defined by the optimization of a 
  
 
 
@@ -95,9 +101,9 @@ $$
 
 ---
 
-## Stuff to touch on
+### Stuff to touch on
 
 - (-> voice recorder)
 - 
 - AI safety (a purely cognitive (passive) system is by definition no threat; It's only when you introduce extrinsic reward when you get problems)
-- Autism (or maybe better not, I don't like it when people speculate about autism; But anyway, the idea would be that autism is roughly speaking when the intrinsic surprisal metric outweighs extrinsic reward. Hence we are overwhelmed by noise & chaos (unpredictable), like order, like to *really* understand (either the world, like me, or some arbitrarily chosen subsection of the world, i.e. special interests))
+- Autism (or maybe better not, I don't like it when people speculate about autism; But anyway, the idea would be that autism is roughly speaking when the intrinsic surprisal metric outweighs extrinsic reward, or simply is higher than usual. Hence we are overwhelmed by noise & chaos (unpredictable), like order, like to *really* understand (either the world, like me, or some arbitrarily chosen subsection of the world, i.e. special interests))
