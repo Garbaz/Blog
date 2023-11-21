@@ -90,14 +90,22 @@ $$
 
 Because cognition is highly useful for intelligence.
 
-The internal dynamics of an intelligent system are defined by the optimization of a 
- 
+The internal dynamics of an intelligent system are defined by the optimization of a metric that is only influenced by the sensory state. Especially when this metric is very sparse over time, as is the case in many settings both natural and engineered, to be able to *anticipate* the future dynamics of the metric helps greatly in optimizing for it.
+
+To take a quite different example to the human mind in the real world, consider the world of a chess game. The state space of chess is tiny compared to the state space of the world, and even discrete, and yet, even there, we already come upon this fundamental problem: The signal whether a move was good or bad only comes when the game is over. And yet, people and machines alike can choose good moves, they can *plan*. How is that possible? By combining cognition and intelligence.
+
+**TO BE CONTINUED**
 
 
+<!-- > I'm reconsidering the way I defined intelligence, the way I'm defining it below makes more sense. I should give what I defined as intelligent above maybe a different name (?)
 
+An intelligent system appears to optimize some kind of *reward* function $\rho(x)$:
 
+$$
+D(y,x) = \mathop{argopt}\limits_y \left (\int_\text{now}^\infty \rho(x) \, dt \right )
+$$
 
-
+The problem is that this integral can not be evaluated. 
 
 ---
 
@@ -106,4 +114,4 @@ The internal dynamics of an intelligent system are defined by the optimization o
 - (-> voice recorder)
 - 
 - AI safety (a purely cognitive (passive) system is by definition no threat; It's only when you introduce extrinsic reward when you get problems)
-- Autism (or maybe better not, I don't like it when people speculate about autism; But anyway, the idea would be that autism is roughly speaking when the intrinsic surprisal metric outweighs extrinsic reward, or simply is higher than usual. Hence we are overwhelmed by noise & chaos (unpredictable), like order, like to *really* understand (either the world, like me, or some arbitrarily chosen subsection of the world, i.e. special interests))
+- Autism (or maybe better not, I don't like it when people speculate about autism; But anyway, the idea would be that autism is roughly speaking when the intrinsic surprisal metric outweighs extrinsic reward, or simply is higher than usual. Hence we are overwhelmed by noise & chaos (unpredictable), like order, like to *really* understand (either the world, like me, or some arbitrarily chosen subsection of the world, i.e. special interests)) -->
